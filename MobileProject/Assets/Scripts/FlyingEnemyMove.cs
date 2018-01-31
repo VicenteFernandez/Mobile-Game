@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FlyingEnemyMove : MonoBehaviour {
-    public float moveSpeed = 1, triggerDistance = 10, turnAround = 10, timer = 0;
+    public float moveSpeed = 1, triggerDistance = 10, turnAround = 10;
+    private float timer = 0;
     public GameObject player;
     private bool on = false;
     //if changesDirection is true, the enemy will move in the opposite direction after the timer > turnAround
