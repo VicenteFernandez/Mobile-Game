@@ -5,13 +5,16 @@ using UnityEngine;
 public class FlyingEnemyMove : MonoBehaviour {
     public float moveSpeed = 1, triggerDistance = 10, turnAround = 10, timer = 0;
     public GameObject player;
-    public bool on = false, changesDirection = false;
+    private bool on = false;
+    //if changesDirection is true, the enemy will move in the opposite direction after the timer > turnAround
+    public bool changesDirection = false;
     //directions are left, right, up, down, upleft, downleft, upright, downright
     public string direction = "left";
+    Animator anim;
     // Use this for initialization
     void Start () {
-		
-	}
+        anim = GetComponent<Animator>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -71,6 +74,7 @@ public class FlyingEnemyMove : MonoBehaviour {
                 timer = 0;
             }
         }
+        //diagonal directions
         if (on == true && direction == "upleft")
         {
             velocity = new Vector2(moveSpeed * -1, moveSpeed * 1);
@@ -119,5 +123,7 @@ public class FlyingEnemyMove : MonoBehaviour {
             }
 
         }
+        //animation controls
+        anim.SetFloat("moveX", GetComponent<Rigidbody2D>().velocity.x);
     }
 }
