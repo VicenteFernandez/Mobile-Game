@@ -43,12 +43,14 @@ public class EnemyMove : MonoBehaviour {
         {
             moveRight = true;
             moveLeft = false;
+            Debug.Log("R");
             return;
         }
         if (moveLeft == false && moveRight == true)
         {
             moveLeft = true;
             moveRight = false;
+            Debug.Log("L");
             return;
         }
     }
