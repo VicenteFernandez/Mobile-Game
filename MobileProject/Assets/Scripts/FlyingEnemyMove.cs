@@ -126,5 +126,6 @@ public class FlyingEnemyMove : MonoBehaviour {
         }
         //animation controls
         anim.SetFloat("moveX", GetComponent<Rigidbody2D>().velocity.x);
+        anim.SetFloat("moveY", GetComponent<Rigidbody2D>().velocity.y);
     }
 }
