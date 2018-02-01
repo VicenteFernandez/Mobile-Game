@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 8d6722683629cf64a8935504525e5299
+  - enabled: 1
+    path: Assets/Scenes/deathlvl1.unity
+    guid: 520e0506548a9084f9f21df6c49317e3
+  - enabled: 1
+    path: Assets/Scenes/Ethan.unity
+    guid: 46ac1baac456ff143a79c7d5dc3c5a4b
