@@ -1,21 +1,11 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 2956286cac8dd7c43894f6fa52de122f
-timeCreated: 1517849226
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
-=======
-guid: 9ac89daad247e31438ebeab1c41ee80e
-timeCreated: 1517848964
+guid: 0deab1ec6c398654e868b96d9d71978c
+timeCreated: 1517852873
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Dirt (1)_0
-    21300002: Dirt (1)_1
-    21300004: Dirt (1)_2
-    21300006: Dirt (1)_3
->>>>>>> 403c66b9bbaccd59d8aa49467666ed9698113ead
+    21300000: Sand Transition Blocks And Water clone_0
+    21300002: Sand Transition Blocks And Water clone_1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -43,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -52,13 +42,8 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 1
-  spriteExtrude: 1
-=======
   spriteMode: 2
   spriteExtrude: 0
->>>>>>> 403c66b9bbaccd59d8aa49467666ed9698113ead
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -93,36 +78,11 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-<<<<<<< HEAD
-  - buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
-=======
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dirt (1)_0
+      name: Sand Transition Blocks And Water clone_0
       rect:
         serializedVersion: 2
         x: 0
@@ -136,21 +96,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Dirt (1)_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Dirt (1)_2
+      name: Sand Transition Blocks And Water clone_1
       rect:
         serializedVersion: 2
         x: 0
@@ -163,21 +109,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-    - serializedVersion: 2
-      name: Dirt (1)_3
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
->>>>>>> 403c66b9bbaccd59d8aa49467666ed9698113ead
     outline: []
     physicsShape: []
   spritePackingTag: 
