@@ -5,6 +5,7 @@ using UnityEngine;
 public class CoconutMove : MonoBehaviour {
     public float moveSpeed = 1, triggerDistance = 10;
     public GameObject Player;
+    public bool mustTrigger = false;
     private bool on = false, grounded = false;
     public string moveDirection = "left";
 	// Use this for initialization
@@ -16,18 +17,18 @@ public class CoconutMove : MonoBehaviour {
 	void Update () {
         Vector2 playerPos = (Player.transform.position);
         Vector2 distance = new Vector2 (playerPos.x - transform.position.x, playerPos.y - transform.position.y);
-        if(distance.magnitude <= triggerDistance)
+        if(distance.magnitude <= triggerDistance || mustTrigger == false)
         {
             on = true;
         }
         Vector2 velocity = GetComponent<Rigidbody2D>().velocity;
-        if ( on == true && grounded == true && moveDirection == "left")
+        if ( on == true && grounded == true && moveDirection == "left" || mustTrigger == false && grounded == true && moveDirection == "left")
         {
             velocity.x = -1 * moveSpeed;
             GetComponent<Rigidbody2D>().velocity = velocity;
 
         }
-        if (on == true && grounded == true && moveDirection == "right")
+        if (on == true && grounded == true && moveDirection == "right" || mustTrigger == false && grounded == true && moveDirection == "right")
         {
             velocity.x = 1 * moveSpeed;
             GetComponent<Rigidbody2D>().velocity = velocity;
