@@ -1,11 +1,13 @@
 fileFormatVersion: 2
-guid: f1a53c4cd6e63b147ad895f153aa2020
-timeCreated: 1517849154
+guid: 9ac89daad247e31438ebeab1c41ee80e
+timeCreated: 1517848964
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Roasted pig_ Apple launcher kill (1)_0
-    21300002: Roasted pig_ Apple launcher kill (1)_1
+    21300000: Dirt (1)_0
+    21300002: Dirt (1)_1
+    21300004: Dirt (1)_2
+    21300006: Dirt (1)_3
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -33,7 +35,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -82,7 +84,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Roasted pig_ Apple launcher kill (1)_0
+      name: Dirt (1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -96,10 +98,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Roasted pig_ Apple launcher kill (1)_1
+      name: Dirt (1)_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dirt (1)_2
       rect:
         serializedVersion: 2
         x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Dirt (1)_3
+      rect:
+        serializedVersion: 2
+        x: 64
         y: 0
         width: 64
         height: 64
