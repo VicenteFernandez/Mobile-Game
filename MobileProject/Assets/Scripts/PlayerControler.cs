@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerControler : MonoBehaviour {
     public float moveSpeed = 1, jumpSpeed = 1, bounceSpeed = 1;
     public bool grounded = false, canBounce = false;
+    private bool onIce = false;
     Animator anim;
 	// Use this for initialization
 	void Start () {
@@ -16,8 +17,16 @@ public class PlayerControler : MonoBehaviour {
         //Player movement left and right
         float moveX = Input.GetAxis("Horizontal");
         Vector2 velocity = GetComponent<Rigidbody2D>().velocity;
-        velocity.x = moveX * moveSpeed;
-        GetComponent<Rigidbody2D>().velocity = velocity;
+        if (onIce == false)
+        {
+            velocity.x = moveX * moveSpeed;
+            GetComponent<Rigidbody2D>().velocity = velocity;
+        }
+        if(onIce == true)
+        {
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(moveX * moveSpeed, velocity.y));
+        }
+        
         //change an int in the anim controller to match the float moveX
         if(moveX == 0)
         {
@@ -36,7 +45,8 @@ public class PlayerControler : MonoBehaviour {
         //jump
         if (Input.GetButtonDown("Jump") && grounded == true)
         {
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 100 * jumpSpeed));
+            float Xvel = GetComponent<Rigidbody2D>().velocity.x;
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(Xvel, 100 * jumpSpeed));
            
         }
 
@@ -51,5 +61,13 @@ public class PlayerControler : MonoBehaviour {
     {
         grounded = false;
         anim.SetBool("isJumping", true);
+    }
+    public void OnIce()
+    {
+        onIce = true;
+    }
+    public void OffIce()
+    {
+        onIce = false;
     }
 }
