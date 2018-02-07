@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CameraMove : MonoBehaviour {
     public GameObject Player;
+    public float height = 2;
+
     // Use this for initialization
     void Start()
     {
@@ -13,7 +15,7 @@ public class CameraMove : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y, transform.position.z);
+        transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y + height, transform.position.z);
     }
 
 }
