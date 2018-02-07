@@ -5,17 +5,13 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Roasted pig_ Apple launcher kill (1)_0
+  m_Name: Apple_0
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-<<<<<<< HEAD
-    m_StateMachine: {fileID: 1107970504869750632}
-=======
-    m_StateMachine: {fileID: 1107183929257774336}
->>>>>>> a581a4ba5cf8d50772964f6769cba4e886ea487d
+    m_StateMachine: {fileID: 1107458481796903278}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -25,23 +21,14 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
-<<<<<<< HEAD
---- !u!1102 &1102648456678461382
-=======
---- !u!1102 &1102688836306317048
->>>>>>> a581a4ba5cf8d50772964f6769cba4e886ea487d
+--- !u!1102 &1102296228315126722
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: New Animation
+  m_Name: apple
   m_Speed: 1
-=======
-  m_Name: RoastedPig
-  m_Speed: 0.5
->>>>>>> a581a4ba5cf8d50772964f6769cba4e886ea487d
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -53,21 +40,13 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-<<<<<<< HEAD
-  m_Motion: {fileID: 7400000, guid: 7795db2227a0a604bab45e7ce448cd79, type: 2}
-=======
-  m_Motion: {fileID: 7400000, guid: 661d77276a5929347b1c5ef54f385223, type: 2}
->>>>>>> a581a4ba5cf8d50772964f6769cba4e886ea487d
+  m_Motion: {fileID: 7400000, guid: 8f30839aa85d6cc48bbb3d81496e8925, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
-<<<<<<< HEAD
---- !u!1107 &1107970504869750632
-=======
---- !u!1107 &1107183929257774336
->>>>>>> a581a4ba5cf8d50772964f6769cba4e886ea487d
+--- !u!1107 &1107458481796903278
 AnimatorStateMachine:
   serializedVersion: 5
   m_ObjectHideFlags: 1
@@ -76,11 +55,7 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-<<<<<<< HEAD
-    m_State: {fileID: 1102648456678461382}
-=======
-    m_State: {fileID: 1102688836306317048}
->>>>>>> a581a4ba5cf8d50772964f6769cba4e886ea487d
+    m_State: {fileID: 1102296228315126722}
     m_Position: {x: 200, y: 0, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
@@ -91,8 +66,4 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-<<<<<<< HEAD
-  m_DefaultState: {fileID: 1102648456678461382}
-=======
-  m_DefaultState: {fileID: 1102688836306317048}
->>>>>>> a581a4ba5cf8d50772964f6769cba4e886ea487d
+  m_DefaultState: {fileID: 1102296228315126722}

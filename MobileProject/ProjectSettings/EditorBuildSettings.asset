@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scripts/Scenes/MainMenu.unity
     guid: 8d6722683629cf64a8935504525e5299
   - enabled: 1
-    path: Assets/Scenes/deathlvl1.unity
+    path: Assets/Scripts/Scenes/deathlvl1.unity
     guid: 520e0506548a9084f9f21df6c49317e3
   - enabled: 1
-    path: Assets/Scenes/Ethan.unity
+    path: Assets/Scripts/Scenes/Ethan.unity
     guid: 46ac1baac456ff143a79c7d5dc3c5a4b
+  - enabled: 1
+    path: Assets/Scripts/Scenes/deathlvl2.unity
+    guid: c169298884f341642ae7c2cf9522ab32
+  - enabled: 1
+    path: Assets/Scripts/Scenes/deathlvl3.unity
+    guid: 55a691b3452badb44bdd2666a23b65ad

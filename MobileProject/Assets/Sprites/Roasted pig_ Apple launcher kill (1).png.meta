@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 guid: f1a53c4cd6e63b147ad895f153aa2020
+<<<<<<< HEAD
+timeCreated: 1517849861
+=======
 timeCreated: 1517849154
+>>>>>>> 403c66b9bbaccd59d8aa49467666ed9698113ead
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -43,7 +47,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
+<<<<<<< HEAD
+  spriteExtrude: 1
+=======
   spriteExtrude: 0
+>>>>>>> 403c66b9bbaccd59d8aa49467666ed9698113ead
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -78,6 +86,29 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+=======
+>>>>>>> 403c66b9bbaccd59d8aa49467666ed9698113ead
   spriteSheet:
     serializedVersion: 2
     sprites:

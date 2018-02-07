@@ -1,21 +1,13 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 2956286cac8dd7c43894f6fa52de122f
-timeCreated: 1517849226
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
-=======
-guid: 9ac89daad247e31438ebeab1c41ee80e
-timeCreated: 1517848964
+guid: db2b2bfc7861be044b69c2c301655bbf
+timeCreated: 1517852964
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Dirt (1)_0
-    21300002: Dirt (1)_1
-    21300004: Dirt (1)_2
-    21300006: Dirt (1)_3
->>>>>>> 403c66b9bbaccd59d8aa49467666ed9698113ead
+    21300000: Apple_0
+    21300002: Apple_1
+    21300004: Apple_2
+    21300006: Apple_3
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -43,7 +35,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -52,18 +44,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 1
-  spriteExtrude: 1
-=======
   spriteMode: 2
-  spriteExtrude: 0
->>>>>>> 403c66b9bbaccd59d8aa49467666ed9698113ead
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -93,7 +80,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-<<<<<<< HEAD
   - buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -116,13 +102,9 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-=======
-  spriteSheet:
-    serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dirt (1)_0
+      name: Apple_0
       rect:
         serializedVersion: 2
         x: 0
@@ -136,7 +118,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Dirt (1)_1
+      name: Apple_1
       rect:
         serializedVersion: 2
         x: 64
@@ -150,7 +132,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Dirt (1)_2
+      name: Apple_2
       rect:
         serializedVersion: 2
         x: 0
@@ -164,7 +146,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Dirt (1)_3
+      name: Apple_3
       rect:
         serializedVersion: 2
         x: 64
@@ -177,7 +159,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
->>>>>>> 403c66b9bbaccd59d8aa49467666ed9698113ead
     outline: []
     physicsShape: []
   spritePackingTag: 
