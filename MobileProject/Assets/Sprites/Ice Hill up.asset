@@ -9,13 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: water
+  m_Name: Ice Hill up
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  m_Sprite: {fileID: 21300000, guid: cfef01c9b4e549a4cbd190e91af126d4, type: 3}
-=======
-  m_Sprite: {fileID: 21300000, guid: a72bf5e0ab9c17f4fb174a11004ae99d, type: 3}
->>>>>>> c515da48740b9f8fae002b8ab393ecb3b499f540
+  m_Sprite: {fileID: 21300000, guid: 7d4121ba952d7d146882c9c314ee4261, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

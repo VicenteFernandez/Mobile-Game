@@ -19,12 +19,21 @@ public class PlayerFeet : MonoBehaviour {
         {
             GetComponentInParent<PlayerControler>().Grounded();
         }
+        if (col.gameObject.tag == "Ice")
+        {
+            GetComponentInParent<PlayerControler>().OnIce();
+
+        }
     }
     private void OnTriggerExit2D(Collider2D col)
     {
         if (col.gameObject.layer == 8)
         {
             GetComponentInParent<PlayerControler>().NotGrounded();
+        }
+        if (col.gameObject.tag == "Ice")
+        {
+            GetComponentInParent<PlayerControler>().OffIce();
         }
     }
 
