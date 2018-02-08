@@ -1,11 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: cfef01c9b4e549a4cbd190e91af126d4
-timeCreated: 1517853718
-=======
-guid: a72bf5e0ab9c17f4fb174a11004ae99d
-timeCreated: 1517854386
->>>>>>> a581a4ba5cf8d50772964f6769cba4e886ea487d
+timeCreated: 1518106442
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -36,11 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
     filterMode: 0
-=======
-    filterMode: -1
->>>>>>> a581a4ba5cf8d50772964f6769cba4e886ea487d
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -50,24 +41,12 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
-<<<<<<< HEAD
-  spriteExtrude: 0
-=======
   spriteExtrude: 1
->>>>>>> a581a4ba5cf8d50772964f6769cba4e886ea487d
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
   spritePixelsToUnits: 64
-=======
-  spritePixelsToUnits: 100
->>>>>>> a581a4ba5cf8d50772964f6769cba4e886ea487d
-=======
-  spritePixelsToUnits: 64
->>>>>>> c515da48740b9f8fae002b8ab393ecb3b499f540
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -87,10 +66,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c515da48740b9f8fae002b8ab393ecb3b499f540
   - buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -101,31 +76,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-<<<<<<< HEAD
-=======
->>>>>>> a581a4ba5cf8d50772964f6769cba4e886ea487d
-=======
-  - buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
->>>>>>> c515da48740b9f8fae002b8ab393ecb3b499f540
   spriteSheet:
     serializedVersion: 2
     sprites: []
