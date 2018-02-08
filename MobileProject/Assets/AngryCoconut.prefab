@@ -39,7 +39,7 @@ Transform:
   m_GameObject: {fileID: 1555767384419658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.71051, y: -0.5425129, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -109,7 +109,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1
   triggerDistance: 10
-  Player: {fileID: 0}
   moveDirection: left
 --- !u!212 &212138172884120428
 SpriteRenderer:

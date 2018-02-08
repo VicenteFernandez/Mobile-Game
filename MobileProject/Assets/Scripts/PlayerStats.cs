@@ -39,14 +39,20 @@ public class PlayerStats : MonoBehaviour {
     {
         if(col.gameObject.tag == "Enemy")
         {
-            HP -= 1;
+            HP = 0;
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         }
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.gameObject.layer == 9)
+        if(col.gameObject.layer == 4)
         {
             HP = 0;
+        }
+        if (col.gameObject.layer == 9)
+        {
+            HP = 0;
+            GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         }
     }
    
