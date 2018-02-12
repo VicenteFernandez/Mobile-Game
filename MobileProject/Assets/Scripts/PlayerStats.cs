@@ -42,6 +42,7 @@ public class PlayerStats : MonoBehaviour {
             HP = 0;
             GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         }
+        
     }
     private void OnTriggerEnter2D(Collider2D col)
     {

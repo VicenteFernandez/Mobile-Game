@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerControler : MonoBehaviour {
     public float moveSpeed = 1, jumpSpeed = 1, bounceSpeed = 1;
     public bool grounded = false, canBounce = false;
-    private bool onIce = false;
+    private bool onIce = false, canMove = true;
     Animator anim;
 	// Use this for initialization
 	void Start () {
@@ -17,12 +17,12 @@ public class PlayerControler : MonoBehaviour {
         //Player movement left and right
         float moveX = Input.GetAxis("Horizontal");
         Vector2 velocity = GetComponent<Rigidbody2D>().velocity;
-        if (onIce == false)
+        if (onIce == false && canMove == true)
         {
             velocity.x = moveX * moveSpeed;
             GetComponent<Rigidbody2D>().velocity = velocity;
         }
-        if(onIce == true)
+        if(onIce == true && canMove == true)
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(moveX * moveSpeed, velocity.y));
         }
@@ -56,6 +56,7 @@ public class PlayerControler : MonoBehaviour {
     {
         grounded = true;
         anim.SetBool("isJumping", false);
+        canMove = true;
     }
     public void NotGrounded()
     {
@@ -69,5 +70,13 @@ public class PlayerControler : MonoBehaviour {
     public void OffIce()
     {
         onIce = false;
+    }
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "PlayerLauncher")
+        {
+            GetComponent<Rigidbody2D>().velocity = new Vector2(-100, 25);
+            canMove = false;
+        }
     }
 }
