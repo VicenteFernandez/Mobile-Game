@@ -1,11 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 1a9c5d5b282fd0e459cb6db3894e702a
-timeCreated: 1518540543
-=======
-guid: 7b3e7bf6c2a0d0c489ebe1f560ccc9ea
-timeCreated: 1518545342
->>>>>>> 836559b8f24cd91a7fca44e0e84435e79cb82aa9
+guid: 407bd6f1c303d4740b1c00c8f3942e5e
+timeCreated: 1518627430
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -36,11 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
-    filterMode: 0
-=======
     filterMode: -1
->>>>>>> 836559b8f24cd91a7fca44e0e84435e79cb82aa9
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -55,11 +46,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-<<<<<<< HEAD
-  spritePixelsToUnits: 64
-=======
   spritePixelsToUnits: 100
->>>>>>> 836559b8f24cd91a7fca44e0e84435e79cb82aa9
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -79,29 +66,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-<<<<<<< HEAD
-  - buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-=======
->>>>>>> 836559b8f24cd91a7fca44e0e84435e79cb82aa9
   spriteSheet:
     serializedVersion: 2
     sprites: []

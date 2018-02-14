@@ -1,21 +1,14 @@
 fileFormatVersion: 2
-guid: 744b7bf1b5f511044963d34ecb544848
-<<<<<<< HEAD
-=======
-timeCreated: 1518452876
+guid: 773a8381ea455ea408cac2a4b038b00b
+timeCreated: 1518627430
 licenseType: Free
->>>>>>> 4b3a0754070f3fe27ccb7d0dae9aa6888af128d3
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
-<<<<<<< HEAD
-    enableMipMap: 1
-=======
     enableMipMap: 0
->>>>>>> 4b3a0754070f3fe27ccb7d0dae9aa6888af128d3
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -38,20 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
     filterMode: -1
-    aniso: -1
-    mipBias: -1
-    wrapU: -1
-    wrapV: -1
-    wrapW: -1
-  nPOTScale: 1
-  lightmap: 0
-  compressionQuality: 50
-  spriteMode: 0
-  spriteExtrude: 1
-=======
-    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -61,25 +41,16 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
-  spriteExtrude: 0
->>>>>>> 4b3a0754070f3fe27ccb7d0dae9aa6888af128d3
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-<<<<<<< HEAD
   spritePixelsToUnits: 100
-  alphaUsage: 1
-  alphaIsTransparency: 0
-  spriteTessellationDetail: -1
-  textureType: 0
-=======
-  spritePixelsToUnits: 164
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
->>>>>>> 4b3a0754070f3fe27ccb7d0dae9aa6888af128d3
   textureShape: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
@@ -95,19 +66,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-<<<<<<< HEAD
-=======
-  - buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
->>>>>>> 4b3a0754070f3fe27ccb7d0dae9aa6888af128d3
   spriteSheet:
     serializedVersion: 2
     sprites: []
