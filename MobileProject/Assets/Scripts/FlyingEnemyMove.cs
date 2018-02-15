@@ -5,7 +5,7 @@ using UnityEngine;
 public class FlyingEnemyMove : MonoBehaviour {
     public float moveSpeed = 1, triggerDistance = 10, turnAround = 10;
     private float timer = 0;
-    public GameObject player;
+    GameObject player;
     private bool on = false;
     //if changesDirection is true, the enemy will move in the opposite direction after the timer > turnAround
     public bool changesDirection = false;
@@ -19,6 +19,7 @@ public class FlyingEnemyMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        player = GameObject.FindGameObjectWithTag("Player");
         //finds the player pos and compares it to trigger distance
         Vector3 playerPos = player.transform.position;
         Vector2 Distance = new Vector2(playerPos.x - transform.position.x,
