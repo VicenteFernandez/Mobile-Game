@@ -18,7 +18,7 @@ public class BoxingGlove : MonoBehaviour {
         if(on == true)
         {
             timer += Time.deltaTime;
-            GetComponent<Rigidbody2D>().AddForce(GetComponent<Rigidbody2D>().velocity = new Vector2(-25, 0));
+            GetComponent<Rigidbody2D>().AddForce(GetComponent<Rigidbody2D>().velocity = new Vector2(-10, 0));
             GetComponent<SpriteRenderer>().enabled = true;
             if (timer >= timeLimit)
             {
