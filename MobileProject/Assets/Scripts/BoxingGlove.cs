@@ -10,6 +10,7 @@ public class BoxingGlove : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         pos = GetComponent<Transform>().position;
+        GetComponent<SpriteRenderer>().enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -18,9 +19,12 @@ public class BoxingGlove : MonoBehaviour {
         {
             timer += Time.deltaTime;
             GetComponent<Rigidbody2D>().AddForce(GetComponent<Rigidbody2D>().velocity = new Vector2(-25, 0));
-            if(timer >= timeLimit)
+            GetComponent<SpriteRenderer>().enabled = true;
+            if (timer >= timeLimit)
             {
                 GetComponent<Transform>().position = pos;
+                GetComponent<SpriteRenderer>().enabled = false;
+                on = false;
             }
         }
 	}
