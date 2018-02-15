@@ -38,7 +38,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4488905291773496}
   - component: {fileID: 212836179702620076}
-  - component: {fileID: 95634048963998796}
   - component: {fileID: 114031861760110598}
   m_Layer: 0
   m_Name: DeadlyTree
@@ -54,8 +53,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1758340595849542}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.984, y: -0.431, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalPosition: {x: 27.69, y: 1.32, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children:
   - {fileID: 4711976399907464}
   m_Father: {fileID: 0}
@@ -86,7 +85,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.057688594}
+  m_Offset: {x: 0.044486888, y: -0.141}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -97,25 +96,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.05, y: 0.1653772}
+  m_Size: {x: 0.20044594, y: 0.6231855}
   m_EdgeRadius: 0
---- !u!95 &95634048963998796
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1758340595849542}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 46ac4a61aba9be64baf06b658ae28fb5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114031861760110598
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -218,7 +200,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 597d4a8dde8ed0f43a60ff7e06327949, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7a8bd9513aeab2e4ba39887c787565be, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
