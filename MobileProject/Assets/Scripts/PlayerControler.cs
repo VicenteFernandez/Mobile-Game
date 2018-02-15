@@ -76,7 +76,7 @@ public class PlayerControler : MonoBehaviour {
     {
         if (col.gameObject.tag == "PlayerLauncher")
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-100, 25);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(-30, 10);
             canMove = false;
         }
     }

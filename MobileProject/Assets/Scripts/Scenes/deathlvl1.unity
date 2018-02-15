@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   limit: 3
-  SceneToLoad: Ethan
+  SceneToLoad: Level1
 --- !u!1 &1060115021
 GameObject:
   m_ObjectHideFlags: 0
