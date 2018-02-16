@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Ice
   - PlayerLauncher
+  - LevelLoader
   layers:
   - Default
   - TransparentFX

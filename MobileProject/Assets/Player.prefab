@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114823259612757350}
   - component: {fileID: 68483991270760150}
   - component: {fileID: 114431021207830400}
+  - component: {fileID: 114602570692217222}
   - component: {fileID: 82183790754712974}
   m_Layer: 0
   m_Name: Player
@@ -58,7 +59,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1637574506296864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 142.42, y: -0.57, z: 0}
+  m_LocalPosition: {x: 9.31, y: 0.68, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 4425341882077114}
@@ -255,6 +256,18 @@ MonoBehaviour:
   HP: 1
   deathScene: deathlvl1
   deathSound: {fileID: 8300000, guid: fed54a509cf1f344cb64b5d2ba5fb2ee, type: 3}
+--- !u!114 &114602570692217222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1637574506296864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e634b971ae2a540a72b825c0afd529, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextLevelName: SceneNameHere
 --- !u!114 &114781724586417154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -278,7 +291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
-  jumpSpeed: 4
+  jumpSpeed: 3.3
   bounceSpeed: 3
   moveX: 0
   grounded: 0
