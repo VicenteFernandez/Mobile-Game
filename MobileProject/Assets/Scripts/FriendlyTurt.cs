@@ -32,7 +32,7 @@ public class FriendlyTurt : MonoBehaviour {
             on = true;
 
         }
-        //movement based on the string direction
+        
         Vector2 velocity = GetComponent<Rigidbody2D>().velocity;
         if (on == true)
         {
@@ -43,6 +43,11 @@ public class FriendlyTurt : MonoBehaviour {
             {
                 on = false;
             }
+        }
+        if(on == false)
+        {
+            velocity.y = 0;
+            GetComponent<Rigidbody2D>().velocity = velocity;
         }
         //animation controls
         anim.SetFloat("moveX", GetComponent<Rigidbody2D>().velocity.x);

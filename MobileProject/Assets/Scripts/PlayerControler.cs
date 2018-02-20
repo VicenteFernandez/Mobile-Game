@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerControler : MonoBehaviour {
     public float moveSpeed = 1, jumpSpeed = 1, bounceSpeed = 1, moveX;
@@ -16,7 +17,9 @@ public class PlayerControler : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Player movement left and right
-        moveX = Input.GetAxis("Horizontal");
+            moveX = Input.GetAxis("Horizontal");
+               
+        //moveX = CrossPlatformInputManager.GetAxis("Horizontal");
         Vector2 velocity = GetComponent<Rigidbody2D>().velocity;
         if (onIce == false && canMove == true)
         {
