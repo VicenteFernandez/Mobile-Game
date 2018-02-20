@@ -1,19 +1,11 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: ba985618bbb120541954c8ac520873be
-timeCreated: 1518800581
+timeCreated: 1519150590
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Big Boss Snake_0
     21300002: Big Boss Snake_1
-=======
-guid: 9e912dc0ad4e1e64797ef33430583812
-timeCreated: 1518800512
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
->>>>>>> 606f25e19dbf0b23adf1d9c2b89f796c863aef3f
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -41,24 +33,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
-    filterMode: 0
-=======
     filterMode: -1
->>>>>>> 606f25e19dbf0b23adf1d9c2b89f796c863aef3f
     aniso: -1
     mipBias: -1
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> 606f25e19dbf0b23adf1d9c2b89f796c863aef3f
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -84,7 +68,6 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-<<<<<<< HEAD
   - buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -146,11 +129,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-=======
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
->>>>>>> 606f25e19dbf0b23adf1d9c2b89f796c863aef3f
     outline: []
     physicsShape: []
   spritePackingTag: 

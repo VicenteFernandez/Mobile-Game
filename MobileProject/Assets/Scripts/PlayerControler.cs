@@ -47,7 +47,7 @@ public class PlayerControler : MonoBehaviour {
 
 
         //jump
-        if (Input.GetButtonDown("Jump") && grounded == true || JumpButton == true && grounded == true)
+        if (CrossPlatformInputManager.GetAxis("Fire1") == 1 && grounded == true || Input.GetButtonDown("Jump") && grounded == true || JumpButton == true && grounded == true)
         {
             float Xvel = GetComponent<Rigidbody2D>().velocity.x;
             GetComponent<Rigidbody2D>().AddForce(new Vector2(Xvel, 100 * jumpSpeed));
