@@ -83,4 +83,7 @@ public class PlayerControler : MonoBehaviour {
             canMove = false;
         }
     }
+
+   
+
 }

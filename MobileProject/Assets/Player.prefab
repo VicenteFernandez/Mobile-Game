@@ -297,6 +297,7 @@ MonoBehaviour:
   grounded: 0
   canBounce: 0
   JumpButton: 0
+  facingRight: 1
 --- !u!212 &212601353684010408
 SpriteRenderer:
   m_ObjectHideFlags: 1
