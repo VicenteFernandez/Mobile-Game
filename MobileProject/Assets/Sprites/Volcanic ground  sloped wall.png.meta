@@ -1,13 +1,11 @@
 fileFormatVersion: 2
-guid: 346a312ddcb8b224ba3dccbd9645ff0e
-timeCreated: 1519143967
+guid: 0c06dc4f1f7cf1c44b00cce94481bc6d
+timeCreated: 1519144793
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Cave ground_0
-    21300002: Cave ground_1
-    21300004: Cave ground_2
-    21300006: Cave ground_3
+    21300000: Volcanic ground  sloped wall_0
+    21300002: Volcanic ground  sloped wall_1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -104,7 +102,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cave ground_0
+      name: Volcanic ground  sloped wall_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,38 +116,10 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Cave ground_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Cave ground_2
+      name: Volcanic ground  sloped wall_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Cave ground_3
-      rect:
-        serializedVersion: 2
-        x: 16
         y: 0
         width: 16
         height: 16
