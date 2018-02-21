@@ -8,7 +8,7 @@ public class PauseMenu : MonoBehaviour {
     public GameObject pauseCanvas;
     public GameObject notPausedCanvas;
     public string currentLevel;
-    float buttonPressed = 0;
+   
 	// Use this for initialization
 	void Start () {
         pauseCanvas.GetComponent<Canvas>().enabled = false;
@@ -17,25 +17,22 @@ public class PauseMenu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        buttonPressed = CrossPlatformInputManager.GetAxis("Fire2");
-        if(buttonPressed == 1)
+        
+        if(CrossPlatformInputManager.GetButtonDown("Pause"))
         {
-            buttonPressed = 0;
             PauseGame();
         }
-        if (buttonPressed == 2)
+        if (CrossPlatformInputManager.GetButtonDown("Resume"))
         {
-            
-            buttonPressed = 0;
             Resume();
         }
-        if (buttonPressed == 3)
-        {
-            MainMenu();
-        }
-        if (buttonPressed == 4)
+        if (CrossPlatformInputManager.GetButtonDown("Restart"))
         {
             Restart();
+        }
+        if (CrossPlatformInputManager.GetButtonDown("MainMenu"))
+        {
+            MainMenu();
         }
     }
     
