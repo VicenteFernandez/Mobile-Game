@@ -17,9 +17,9 @@ public class PlayerControler : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         //Player movement left and right
-            moveX = Input.GetAxis("Horizontal");
+        moveX = Input.GetAxis("Horizontal");
                
-        //moveX = CrossPlatformInputManager.GetAxis("Horizontal");
+        moveX = CrossPlatformInputManager.GetAxis("Horizontal");
         Vector2 velocity = GetComponent<Rigidbody2D>().velocity;
         if (onIce == false && canMove == true)
         {
@@ -47,7 +47,7 @@ public class PlayerControler : MonoBehaviour {
 
 
         //jump
-        if (Input.GetButtonDown("Jump") && grounded == true || JumpButton == true && grounded == true)
+        if (CrossPlatformInputManager.GetAxis("Fire1") == 1 && grounded == true || Input.GetButtonDown("Jump") && grounded == true || JumpButton == true && grounded == true)
         {
             float Xvel = GetComponent<Rigidbody2D>().velocity.x;
             GetComponent<Rigidbody2D>().AddForce(new Vector2(Xvel, 100 * jumpSpeed));
