@@ -1,7 +1,17 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 26e0a8842af616e4c9ff791c292f84e1
 timeCreated: 1519318276
+=======
+guid: a3bb67505f49411488d45d7718224873
+timeCreated: 1519319167
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Cats and Dogs_0
+    21300002: Cats and Dogs_1
+>>>>>>> ccf546eff67a0bc25a7b905ebc918899bfb97c0c
 =======
 guid: 18d0e682a2965dd4da0877b583116aad
 timeCreated: 1519319123
@@ -9,6 +19,7 @@ timeCreated: 1519319123
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
+>>>>>>> 3834b6475fd31edfa18172ca17453d07a8eacfc0
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -36,7 +47,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
+    filterMode: 0
+=======
     filterMode: -1
+>>>>>>> 3834b6475fd31edfa18172ca17453d07a8eacfc0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -45,7 +60,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
+  spriteMode: 2
+=======
   spriteMode: 1
+>>>>>>> 3834b6475fd31edfa18172ca17453d07a8eacfc0
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +90,73 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cats and Dogs_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 76
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cats and Dogs_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 16
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+=======
   spriteSheet:
     serializedVersion: 2
     sprites: []
+>>>>>>> 3834b6475fd31edfa18172ca17453d07a8eacfc0
     outline: []
     physicsShape: []
   spritePackingTag: 
