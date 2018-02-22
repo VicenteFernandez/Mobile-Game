@@ -26,6 +26,18 @@ public class MainMenu : MonoBehaviour {
         {
             Back();
         }
+        if (CrossPlatformInputManager.GetButtonDown("Easy"))
+        {
+            Level1();
+        }
+        if (CrossPlatformInputManager.GetButtonDown("Medium"))
+        {
+            Level2();
+        }
+        if (CrossPlatformInputManager.GetButtonDown("Hard"))
+        {
+            Level3();
+        }
     }
     public void Play()
     {
