@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class MainMenu : MonoBehaviour {
     public GameObject MainMenuCanvas;
@@ -13,11 +14,34 @@ public class MainMenu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if (CrossPlatformInputManager.GetButtonDown("Play"))
+        {
+            Play();
+        }
+        if (CrossPlatformInputManager.GetButtonDown("Difficulty"))
+        {
+            Difficulty();
+        }
+        if (CrossPlatformInputManager.GetButtonDown("Back"))
+        {
+            Back();
+        }
+        if (CrossPlatformInputManager.GetButtonDown("Easy"))
+        {
+            Level1();
+        }
+        if (CrossPlatformInputManager.GetButtonDown("Medium"))
+        {
+            Level2();
+        }
+        if (CrossPlatformInputManager.GetButtonDown("Hard"))
+        {
+            Level3();
+        }
+    }
     public void Play()
     {
-        SceneManager.LoadScene("Ethan");
+        SceneManager.LoadScene("Level1");
     }
     public void Difficulty()
     {
@@ -29,5 +53,17 @@ public class MainMenu : MonoBehaviour {
     {
         MainMenuCanvas.GetComponent<Canvas>().enabled = true;
         DifficultySelectionCanvas.GetComponent<Canvas>().enabled = false;
+    }
+    public void Level1()
+    {
+        SceneManager.LoadScene("Level1");
+    }
+    public void Level2()
+    {
+        SceneManager.LoadScene("Level 2");
+    }
+    public void Level3()
+    {
+        SceneManager.LoadScene("Level 3");
     }
 }
