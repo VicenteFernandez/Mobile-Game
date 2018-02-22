@@ -23,6 +23,7 @@ public class Raft : MonoBehaviour {
         if(reset == true)
         {
             timer += Time.deltaTime;
+            on = false;
         }
         if (timer >= resetTimer)
         {

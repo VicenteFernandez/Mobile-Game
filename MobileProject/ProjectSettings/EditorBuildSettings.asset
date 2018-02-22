@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scripts/Scenes/Level1.unity
     guid: 95e4d77ecb9bd1c43858fe3486db2eb2
   - enabled: 1
+    path: Assets/Scripts/Scenes/Level 2.unity
+    guid: 1cd3261f0372d814f81102b27e1f0bf2
+  - enabled: 1
+    path: Assets/Scripts/Scenes/Level 3.unity
+    guid: f54e5c0d6586e0540bea1257e6b795a3
+  - enabled: 1
     path: Assets/Scripts/Scenes/deathlvl1.unity
     guid: 520e0506548a9084f9f21df6c49317e3
   - enabled: 1
@@ -20,12 +26,3 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scripts/Scenes/deathlvl3.unity
     guid: 55a691b3452badb44bdd2666a23b65ad
-  - enabled: 1
-    path: Assets/Scripts/Scenes/Ethan.unity
-    guid: 46ac1baac456ff143a79c7d5dc3c5a4b
-  - enabled: 1
-    path: Assets/Scripts/Scenes/Level 2.unity
-    guid: 1cd3261f0372d814f81102b27e1f0bf2
-  - enabled: 1
-    path: Assets/Scripts/Scenes/Level 3.unity
-    guid: f54e5c0d6586e0540bea1257e6b795a3
