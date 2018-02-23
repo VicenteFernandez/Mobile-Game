@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   limit: 3
-  SceneToLoad: 
+  SceneToLoad: Level 2
 --- !u!1 &1849222548
 GameObject:
   m_ObjectHideFlags: 0
