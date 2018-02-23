@@ -58,7 +58,7 @@ Rigidbody2D:
   m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -107,8 +107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092fdbd3353de8d42946d34b14f0061c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
-  triggerDistance: 10
+  moveSpeed: 0
+  triggerDistance: 1000
   moveDirection: left
 --- !u!212 &212220737637986016
 SpriteRenderer:
