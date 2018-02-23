@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+guid: 26e0a8842af616e4c9ff791c292f84e1
+timeCreated: 1519318276
+=======
 guid: a3bb67505f49411488d45d7718224873
 timeCreated: 1519319167
 licenseType: Free
@@ -7,9 +11,11 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: Cats and Dogs_0
     21300002: Cats and Dogs_1
+>>>>>>> ccf546eff67a0bc25a7b905ebc918899bfb97c0c
 =======
 guid: 18d0e682a2965dd4da0877b583116aad
 timeCreated: 1519319123
+>>>>>>> efacc7b4e780a9eb77a6bba11aeec1891d9f374c
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
